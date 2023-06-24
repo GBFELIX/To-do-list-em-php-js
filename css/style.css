@@ -1,0 +1,84 @@
+body{
+    background-image: url("../img/wall.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;   
+}
+h1, h2{
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    width: 400px;
+}
+
+div.list{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    width: 400px;
+    
+}
+div.list li{
+    padding: 10px;
+    font-size: 20px;
+}
+div.list li{
+    padding: 10px;
+    font-size: 15px;
+}
+div.list li.concluida{
+    color: green;
+}
+input{
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    width: 250px;
+}
+input:active , input:focus {
+    border: 3px solid green;
+    }
+input.button{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+}
+input.change{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    display: inline;
+    position: relative;
+    left: 100px;
+}
+button{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin: 2px;
+    
+}
